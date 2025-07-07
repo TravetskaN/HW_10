@@ -1,0 +1,33 @@
+    1  git global user.name
+    2  git config --global user.name "Natalia Travetska"
+    3  git config --global user.email "ntravetskaya@gmail.com"
+    4  git clone https://github.com/TravetskaN/HW_10.git
+    5  cd ~/desktop/git/HW_10
+    6  git touch text_ignore.txt
+    7  touch text_ignore.txt
+    8  nano .gitignore
+    9  git status
+   10  git add
+   11  git commit -a
+   12  touch main_test.txt
+   13  git add
+   14  git commit -a
+   15  git commit -m 
+   16  git commit -m "task_2"
+   17  git commit
+   18  git add
+   19  git commit
+   20  git status
+   21  git branch develop
+   22  git checkout develop
+   23  touch develop_test.txt
+   24  git add
+   25  git commit -a
+   26  nano develop_test.txt
+   27  git status
+   28  git add
+   29  git commit -m "task_3"
+   30  git checkout main
+   31  git merge develop
+   32  git log
+   33  history > command_list.csv
